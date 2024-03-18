@@ -1,38 +1,426 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Fredoka;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+         /*---------------------------------Nav bar section / house styling section* fredoka-------------------*/
+
+  
+  .homeimage{
+    height: 60rem;
+    width: 100%;
+    position: relative;
+    background-image: url('../src/images/Heros SectionImage.png'); 
+    background-size: cover; 
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbaricons{
+  background-color: rgba(38, 154, 197, 0.5) ;
+  margin: 0 2rem;
+  margin-top: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.enter{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+}
+
+.about {
+  display: flex;
+  gap: 2rem;
+  padding: 0rem  15rem;
+  font-size: 1.3rem;
+  font-weight: 400;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about a{
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.writeup{
+  text-align: center;
+  padding-top: 17rem;
 }
+
+.writeup h2{
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  font-family: fredoka;
+}
+
+.writeup h6{
+     color: white;
+     font-size: 1.5rem;
+     padding-bottom: 4rem;
+}
+
+   /*---------------------------------buttons------------------------------*/
+
+.usuccess, .startinvest, .invest, .startoption, .rhead1{
+   background: linear-gradient(to right, rgb(110, 127, 61), rgb(134, 170, 29), rgb(174, 224, 29) ); 
+}
+
+  .find {
+      position: absolute;
+      bottom: -20rem; 
+      left: 30%;
+      z-index: 2; 
+      border: 3px solid rgb(188, 196, 166);
+      padding: 40px 100px;
+      background-color: rgb(159, 159, 159);
+      border-top-left-radius: 3rem;
+      border-bottom-right-radius: 3rem;
+   
+  }
+  
+
+            /*----------------------------------why choose us sectio---------------------------------------n*/
+
+.container2{
+  background-color: rgb(110, 127, 61);
+  margin-top: 10rem;
+  padding: 5rem;
+  color: white;
+}
+
+.choose h4{
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 50%;
+  border: 2px solid #708df5;
+  
+}
+
+.choose{
+  padding: 0rem 6rem;
+  padding-top: 5rem;
+}
+
+.choose h2{
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-family: fredoka;
+}
+
+.choose h5{
+  padding-bottom: 2rem;
+}
+
+  /*----------------------------------Invest Options-------------------------------------------------------------------------- */
+
+  .options{
+   text-align: center;
+  }
+
+  .options h5{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 2px solid #5772d6;
+    color: rgb(110, 127, 61);
+  }
+
+  .optionhow h5{
+    display: inline-block;
+    padding: 5px 35px;
+    border-radius: 50%;
+    border: 2px solid #5772d6;
+    text-align: center;
+    color: rgb(110, 127, 61);
+  }
+
+  .optionhow{
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+
+  .container3{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .options h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color:rgb(110, 127, 61) ;
+  }
+
+  .starter,
+  .growth,
+  .premium{
+    border: 1px solid #e6dbdb; 
+    /* padding-top: 2rem; */
+    width: 300px; 
+    padding-left: 20px;
+    padding-right: 13px;
+    margin: 5rem 4rem;
+    height: 300px;
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    color: white;
+  }
+
+
+  .starter{
+    background-color: #708df5;
+  }
+
+  .growth{
+    background-color: rgb(110, 127, 61);
+  }
+
+  .premium{
+    background-color: rgb(176,156,133);
+  }
+
+  .starter h3,
+  .growth h3,
+  .premium h3{
+    padding-left: 1.7rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  .starter h6,
+  .growth h6,
+  .premium h6{
+    padding: 0rem 2rem;
+  }
+
+  .startoption{
+    margin-top: 5rem;
+    margin-left: 6rem;
+  }
+
+
+  /*-----------------------------------------making real investment section---------------------------------------*/
+
+  .container4{
+    background-color: rgb(110, 127, 61);
+    padding-bottom: 1rem;
+    
+  }
+
+  
+  .header h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem;
+    color: white;
+  }
+
+  .main1{
+    
+  }
+
+.center1{
+  margin-bottom: 11.9rem;
+}
+
+.left,
+.right{
+  margin-top: 12.5rem;
+}
+
+   .main2{
+    display: flex;
+    margin-left: 13rem;
+    color: white;
+
+  }
+  
+
+  .left,
+  .right,
+  .center2{
+    border: 1px solid rgb(60, 74, 19); 
+    width: 350px; 
+    height: 190px;
+    padding: 2rem;
+    background-color:rgb(60, 74, 19) ;
+  }
+
+  .center1{
+    border: 2px solid #708df5; 
+    width: 350px; 
+    height: 200px;
+    padding: 2rem;
+    background-color: #708df5;
+  }
+
+  .startopt{
+      margin-top: 3rem;
+      margin-left: 75rem;
+      background-color: #708df5;
+  }
+
+
+  /*-------------------------------------------Testimonials Section----------------------------------------------*/
+.container5{
+  padding: 3rem;
+}
+  .people{
+    display: flex;
+    gap: 6rem;
+    color: white;
+    margin: 2rem 3rem;
+  }
+
+  .peoplepix3{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 1rem;
+  }
+
+
+.peoplepix2{
+    display: flex;
+    gap: 102px;
+    margin-bottom: 1rem;
+}
+
+.peoplepix1{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 1rem;
+}
+
+  .people h4{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+
+  .rhead{
+    display: flex;
+    gap: 12rem;
+    margin-left: 31rem;
+  }
+
+  .rhead h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(110, 127, 61);
+  }
+
+  .thead h5{
+      margin-left: 36rem;
+      display: inline-block;
+      padding: 8px 50px;
+      border-radius: 50%;
+      border: 2px solid #5772d6;
+      color: rgb(110, 127, 61);
+  }
+
+  .lawal{
+    border: 2px solid rgb(110, 127, 61); 
+    width: 350px; 
+    height: 230px;
+    padding: 2rem;
+    background-color: rgb(110, 127, 61);
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .ngozi{
+    border: 1px solid #5772d6; 
+    width: 450px; 
+    height: 280px;
+    padding: 2rem;
+    background-color:#5772d6;
+    border-radius: 1.5rem;
+  }
+
+  .shehu{
+    border: 2px solid rgb(110, 127, 61); 
+    width: 350px; 
+    height: 220px;
+    padding: 2rem;
+    background-color: rgb(110, 127, 61);
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+  }
+
+
+  .hands{
+    display: flex;
+    color: white;
+  }
+
+  .vertical-line {
+    border-left: 2px solid white; 
+    margin-right: 10rem;
+   
+}
+
+.contact h5{
+  margin-left: 36rem;
+  display: inline-block;
+  padding: 8px 50px;
+  border-radius: 50%;
+  border: 2px solid #5772d6;
+  color: rgb(110, 127, 61);
+}
+
+.contact h2{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(60, 74, 19);
+  text-align: center;
+}
+
+
+ .hands{
+  border: 4rem solid rgb(85, 99, 45);
+  background-color: rgb(75, 88, 33);  
+  margin: 2rem 3rem;
+} 
+
+
+.handtext{
+  align-items: start;
+  padding: 2rem;
+}
+
+.hands img{
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+         /*----------------------------------footer--------section----------------*/
+
+
+ .containerFooter{
+      padding: 3rem;
+      background-color: rgb(110, 127, 61);
+      min-height: 7rem;
+      color: white;
+ }      
+ 
+ .containerFooter ul li{
+  list-style-type: none;
+ }
+
+ .footerimage{
+  display: flex;
+  gap: 7px;
+ }
+
+ .containerFooter h5{
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    color:#708df5;
+    font-weight: bold;
+ }
