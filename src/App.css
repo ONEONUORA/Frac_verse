@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: fredoka, sans-serif;
+  }
+  
+         
+  /*---------------------------------Nav bar section / house styling section* fredoka-------------------*/
+
+
+                              /*-----------------------Buttons---------------------*/
+.btnsignup,
+.startinvest,
+.invest,
+.startoption,
+.testbtn,
+.contactbutton
+{
+  background: linear-gradient(to right, rgb(110, 127, 61), rgb(134, 170, 29), rgb(174, 224, 29) ); 
+  border-color: rgb(174, 224, 29)  ;
+
+}
+
+
+/*-----------------------------------------testimonials section------------------------------*/
+
+.lawal,
+.ngozi,
+.shehu{
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+
+.lawal h6,
+.ngozi h6,
+.shehu h6{
+   font-size: 13px;
+}
+
+
+/*--------------------------------------------footer sections-----------------------------------------------*/
+
+.containerFooter ul li,
+.nav-item dropdown ul li{
+ list-style-type: none;
+}
+
+
+/*-----------------------------------------------------------------login page-----------------------------------*/
+
+.loginimage img{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+/*--------------------------------------------------------------------signup-----------------------------------*/
+span{
+  border-bottom: 3px solid rgb(8,53,8);
+
+}
+
+.line{
+  text-decoration: none;
+}
+/*-----------------------------------------media query------------------------------------*/
+
+@media(max-width:768px){
+
+  .write h3{
+      font-size: 5px;
+  }
+  .write h5{
+    font-size: 5px;
+    text-align: start;
+}
+
+
+  .write{
+    padding: 1.5rem;
+  }
+
+  .write button{
+    margin-bottom: 2rem;
+  }
+
+  .find {
+      min-width: auto;      
+  }
+
+   
+  .chooseus img{
+      max-width: 80%;
+      margin-left: 2rem;
+      margin-bottom: 10rem;
+      
+  }
+
+  .real h2{
+    font-size: 5px;
+    text-align: start;
+  }
+
+
+
+  .make{
+     flex-direction: column;
+    justify-content: center;
+  
+ 
+  }
+
+
+  .left h6,
+  .right h6,
+  .center1 h6,
+  .center2 h6{ 
+    font-size: 15px;
+    text-align: start;
+  
+  }
+
+  .left h4,
+  .right h4,
+  .center1 h4,
+  .center2 h4{ 
+    font-size: 15px;
+    text-align: start;
+  
+  }
+  .buttonmake{
+    position: absolute;
+    margin-top: 2rem;
+    
+  }
+
+  .handtext h6{
+    font-size: 13px;
+  }
+
+  .hands img{
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+  }
+
+
+  .vertical-line{
+    border: 2px solid white;
+  }
+
+  .already{
+    padding-top: 5rem;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 3rem;
+  }
+
+
+  }
+
+ 
+
+
+
+  @media screen and (min-width: 768px) {
+    .make{
+      display: flex;
+      justify-content: center;
+      margin-top: 7rem;
+    }
+
+   .center1{
+       margin-bottom: 7.5rem;
+     
+       
+    }
+
+    .left,
+    .right{
+      margin-top: 6.5rem;
+  
+    }
+
+    .buttonmake{
+      margin-top: 5rem;
+      position: absolute;
+    }
+    
+
+    .rhead{
+      display: flex;
+     justify-content: center;
+     gap: 7rem;
+    }
+
+
+    .rhead h5{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .people{
+      display: flex;
+    }
+
+    .lawal,
+    .ngozi,
+    .shehu{
+      padding: 2rem 3rem;
+    }
+  
+
+    .lawal h6,
+     .ngozi h6,
+     .shehu h6{
+         font-size: 15px;
+   }
+
+
+    .peoplepix1,
+    .peoplepix2,
+    .peoplepix3{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .contact h6{
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .hands{
+      display: flex;
+      margin: 2rem;
+      height: 25%;
+      border-radius: 15px;
+    }
+
+    .handtext{
+      padding: 1.5rem ;
+    }
+
+    .vertical-line{
+      border-left: 2px solid white;
+      padding-right: 10rem;
+    }
+
+    .hands img{
+      height: 200px;
+      width: 300px;
+      margin-top: 1rem;
+      margin-right: 11rem;
+      margin-bottom: 1rem;
+    }
+
+
+    .handtext h6{
+      font-size: 18px;
+
+    }
+
+    .foget{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .contactbutton{
+      margin-left:8rem;
+    }
+
+    .already{
+      display: flex;
+      gap: 25px;
+      padding-top: 5rem;
+      padding-left: 37rem;
+    }
+    }
+  
+
+
+ 
