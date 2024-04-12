@@ -2,20 +2,47 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: fredoka, sans-serif;
+    width: 1440px;
   }
-  
-         
+
+
+  .container-fluid{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 1000;
+    width: 1401px;
+    height: 82px;
+  }
+
+  .feature {
+    text-align: center;
+    padding-bottom: rem;
+    border-bottom: 7px solid #275892; 
+    width: 37%; 
+    margin: 0 auto; 
+    border-radius: 3px;
+  }
+
+ .startoption1{
+  box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.3);
+ }
   /*---------------------------------Nav bar section / house styling section* fredoka-------------------*/
-
-
-                              /*-----------------------Buttons---------------------*/
+                    /*-----------------------Buttons---------------------*/
 .btnsignup,
 .startinvest,
 .invest,
 .startoption,
+.startoption1,
 .testbtn,
-.contactbutton
+.contactbutton,
+.contactbutton1,
+.contactbutton2,
+.contactbutton3,
+.contactbutton4,
+.learn,
+.buttonmake
+
 {
   background: linear-gradient(to right, rgb(110, 127, 61), rgb(134, 170, 29), rgb(174, 224, 29) ); 
   border-color: rgb(174, 224, 29)  ;
@@ -28,18 +55,17 @@ body{
 .lawal,
 .ngozi,
 .shehu{
-  border: 1px solid;
   padding: 10px;
   border-radius: 20px;
-  margin: 2rem;
+  
 }
 
-
-.lawal h6,
+/* .lawal h6,
 .ngozi h6,
 .shehu h6{
    font-size: 13px;
-}
+} */
+
 
 
 /*--------------------------------------------footer sections-----------------------------------------------*/
@@ -63,14 +89,15 @@ span{
 
 }
 
-.line{
+.line,
+.contactbutton1{
   text-decoration: none;
 }
 /*-----------------------------------------media query------------------------------------*/
 
 @media(max-width:768px){
 
-  .write h3{
+  /* .write h3{
       font-size: 5px;
   }
   .write h5{
@@ -85,27 +112,27 @@ span{
 
   .write button{
     margin-bottom: 2rem;
-  }
+  } */
 
-  .find {
+  /* .find {
       min-width: auto;      
-  }
+  } */
 
    
-  .chooseus img{
+  /* .chooseus img{
       max-width: 80%;
       margin-left: 2rem;
       margin-bottom: 10rem;
       
-  }
-
+  } */
+/* 
   .real h2{
     font-size: 5px;
     text-align: start;
-  }
+  } */
 
 
-
+/* 
   .make{
      flex-direction: column;
     justify-content: center;
@@ -130,14 +157,14 @@ span{
     font-size: 15px;
     text-align: start;
   
-  }
-  .buttonmake{
+  } */
+  /* .buttonmake{
     position: absolute;
     margin-top: 2rem;
     
-  }
+  } */
 
-  .handtext h6{
+  /* .handtext h6{
     font-size: 13px;
   }
 
@@ -150,16 +177,16 @@ span{
 
   .vertical-line{
     border: 2px solid white;
-  }
+  } */
 
-  .already{
+  /* .already{
     padding-top: 5rem;
     display: flex;
     gap: 15px;
     justify-content: center;
     text-align: center;
     padding-left: 3rem;
-  }
+  } */
 
 
   }
@@ -169,7 +196,7 @@ span{
 
 
   @media screen and (min-width: 768px) {
-    .make{
+    /* .make{
       display: flex;
       justify-content: center;
       margin-top: 7rem;
@@ -185,52 +212,59 @@ span{
     .right{
       margin-top: 6.5rem;
   
-    }
+    } */
+/* 
+    .chooseus{
+      margin-left: px;
+    } */
 
-    .buttonmake{
+    /* .buttonmake{
       margin-top: 5rem;
       position: absolute;
-    }
+    } */
     
 
-    .rhead{
+    /* .rhead{
       display: flex;
      justify-content: center;
-     gap: 7rem;
-    }
+     gap: 5rem;
+    } */
 
 
-    .rhead h5{
+    /* .rhead h5{
         font-size: 30px;
         font-weight: bold;
-    }
+    } */
 
-    .people{
+    /* .ngozi{
+      height: 10%;
+    } */
+    /* .people{
       display: flex;
-    }
+    } */
 
-    .lawal,
+    /* .lawal,
     .ngozi,
     .shehu{
       padding: 2rem 3rem;
     }
-  
+   */
 
-    .lawal h6,
+    /* .lawal h6,
      .ngozi h6,
      .shehu h6{
          font-size: 15px;
-   }
+   } */
 
 
-    .peoplepix1,
+    /* .peoplepix1,
     .peoplepix2,
     .peoplepix3{
       display: flex;
       justify-content: space-between;
-    }
+    } */
 
-    .contact h6{
+    /* .contact h6{
       font-size: 30px;
       font-weight: bold;
       margin-bottom: 2rem;
@@ -264,15 +298,17 @@ span{
     .handtext h6{
       font-size: 18px;
 
-    }
+    } */
 
-    .foget{
+     .foget{
       display: flex;
       justify-content: space-around;
+      margin-left: 8rem;
     }
 
-    .contactbutton{
-      margin-left:8rem;
+    /*.contactbutton{
+      display: flex;
+      justify-content: center;
     }
 
     .already{
@@ -280,7 +316,9 @@ span{
       gap: 25px;
       padding-top: 5rem;
       padding-left: 37rem;
-    }
+    } */
+
+  
     }
   
 

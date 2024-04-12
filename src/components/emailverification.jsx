@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import logo from "../assets/Logo2.png"
-import herologin from "../assets/Heros SectionImage.png"
+import herologin from "../assets/HerosSectionImage.png"
 
 
 
@@ -13,7 +13,7 @@ const EmailVerification=()=>{
     return(
         <>
           
-          <div className='emailverificationpage'>
+          <div className='emailverificationpage'  style={{fontFamily:'fredoka'}}>
                       <img src={herologin} alt="Background Image" style={{ width: '100%', minHeight: '100vh', position: 'fixed'}} />
 
                         <div style={{display:'flex', justifyContent:'center', marginRight:'6rem', paddingTop:"3rem"}}>
@@ -22,7 +22,7 @@ const EmailVerification=()=>{
 
                         <div style={{display:'flex', justifyContent:'center'}}>
                                 
-                                <form className='emailverify' style={{border:'1px solid rgba(255, 255, 255, 0.2)', borderTopLeftRadius:"3rem", borderBottomRightRadius:'3rem',  position:'absolute', backgroundColor:'rgba(255, 255, 255, 0.8)', marginTop:'7rem', minWidth:'25%' ,padding:'1rem'}}>
+                                <form className='emailverify' style={{border:'1px solid white', borderTopLeftRadius:"3rem", borderBottomRightRadius:'3rem',  position:'absolute', backgroundColor:'white', marginTop:'7rem', minWidth:'25%' ,padding:'1rem'}}>
 
                                         <div style={{textAlign:'center'}}>
                                             <h5 style={{fontWeight:'bold', fontSize:'23px'}}>Verify Your Identity</h5>
@@ -32,7 +32,7 @@ const EmailVerification=()=>{
                                         </div>
 
                                         <div style={{display:'flex', gap:'20px', justifyContent:'center'}}>
-                                            <h6>Didn't get the link?</h6>
+                                            <h6>Didnt get the link?</h6>
                                             <h6 style={{color:'rgb(8,53,8)'}}>Resend</h6>
                                         </div>
 
@@ -41,7 +41,7 @@ const EmailVerification=()=>{
                                         </div>
 
                                         <div style={{display:'flex',justifyContent:'center',textAlign:'center', gap:'30px', position:'absolute', marginTop:'3rem'}}>
-                                              <p style={{color:'white'}}>Don't have an account?</p>
+                                              <p style={{color:'white'}}>Dont have an account?</p>
                                              <Link to="/signup" className="line"><p  style={{color:'blue'}}>Register Now</p></Link> 
                                         </div>
 
