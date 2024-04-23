@@ -35,7 +35,7 @@ const Landingpage = ()=>{
                             {/* /*-------------------------------------------Nav bar Section----------------------------------*/ }
                         <div className='herowrite' style={{ position: 'absolute', top: '0', left: '0', right: '0'}}>
                             <nav className="navbar navbar-expand-lg">
-                              <div className="container-fluid" style={{backgroundColor: "rgba(176, 246, 176, 0.2)", marginLeft:'20px', marginRight:'20px', borderRadius:"30px", marginTop:'80px', fontFamily:'fredoka'}}>
+                              <div className="container-fluid" style={{backgroundColor: "rgba(176, 246, 176, 0.2)", marginLeft:'20px', marginRight:'20px', borderRadius:"30px", marginTop:'2rem', fontFamily:'fredoka'}}>
                                         <a className="navbar-brand" href="#" >
                                             <a href='#'><img src={logo} alt='Brand Logo' style={{width:'64.16px',height:'71.93px', marginLeft:'30px'}}/></a>
                                         </a>
@@ -74,12 +74,12 @@ const Landingpage = ()=>{
 
                          {/* -------------------------------Nav section write up--------------------------------------------------------- */}
 
-                            <div className='write' style={{textAlign: 'center', paddingTop:"220px"}}>
+                            <div className='write' style={{textAlign: 'center', paddingTop:"8rem"}}>
                                 <h1 style={{fontSize:'80px', color:'white', fontFamily:'fredoka One'}}>Build Your Wealth<br/> One Block at a Time</h1>
                                 <h5 style={{fontSize:'30px', color:'white', fontFamily:'fredoka'}}>FracVerse is an easy reliable to become a co-owner<br/> of a properties and earn income
                                     while you sleep. We make investing <br/>in real estate simple and profitable.
                                 </h5>
-                                <button className='startinvest' type='textsubmit' style={{width:'269px',height:'60px', borderRadius:'8px', marginTop:"20px", fontSize:'22px',fontWeight:'500'}}>Start investing <i className="bi bi-arrow-right"></i></button>
+                               <Link to='/login'><button className='startinvest' type='textsubmit' style={{width:'269px',height:'60px', borderRadius:'8px', marginTop:"20px", fontSize:'22px',fontWeight:'500'}}>Start investing <i className="bi bi-arrow-right"></i></button></Link>
                             </div>
 
 
@@ -396,7 +396,7 @@ const Landingpage = ()=>{
                                     </div>
 
                                     <div className='col-12'>
-                                        <button className='startoption' type='submit' style={{width:'269px',height:'60px', borderRadius:'8px', fontSize:'22px', fontWeight:'bold', float:'right'}}>Start investing <i className="bi bi-arrow-right"></i></button>               
+                                      <Link to='/login'><button className='startoption' type='submit' style={{width:'269px',height:'60px', borderRadius:'8px', fontSize:'22px', fontWeight:'bold', float:'right'}}>Start investing <i className="bi bi-arrow-right"></i></button></Link>             
                                     </div>
                               
                                     
@@ -461,7 +461,7 @@ const Landingpage = ()=>{
                                     
 
                     <div className='col-12 '>
-                        <button className='buttonmake' type='submit' style={{width:'296px',height:'60px', borderRadius:'8px',backgroundColor:'#5772d6', fontSize:'24px', fontWeight:'bold', float:'right', marginTop:'3rem'}}>Start investing <i className="bi bi-arrow-right"></i></button>
+                    <Link to='/login'><button className='buttonmake' type='submit' style={{width:'296px',height:'60px', borderRadius:'8px',backgroundColor:'#5772d6', fontSize:'24px', fontWeight:'bold', float:'right', marginTop:'3rem'}}>Start investing <i className="bi bi-arrow-right"></i></button></Link>
                     </div>                   
                                                 
                  </div>
